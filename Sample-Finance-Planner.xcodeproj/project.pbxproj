@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C2E1262818195D00984D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E1252818195D00984D1F /* AppDelegate.swift */; };
+		18C2E1282818195D00984D1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E1272818195D00984D1F /* SceneDelegate.swift */; };
+		18C2E12A2818195D00984D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E1292818195D00984D1F /* ViewController.swift */; };
+		18C2E12D2818195D00984D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E12B2818195D00984D1F /* Main.storyboard */; };
+		18C2E12F2818196200984D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E12E2818196200984D1F /* Assets.xcassets */; };
+		18C2E1322818196200984D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2E1302818196200984D1F /* LaunchScreen.storyboard */; };
+		18C2E13A28187A3400984D1F /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E13928187A3400984D1F /* chatViewController.swift */; };
+		18C2E14028194EF100984D1F /* DashbordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E13F28194EF100984D1F /* DashbordViewController.swift */; };
+		18C2E14228194F1A00984D1F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E14128194F1A00984D1F /* ProfileViewController.swift */; };
+		18C2E14428195F0C00984D1F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2E14328195F0C00984D1F /* ListViewController.swift */; };
+		500CABB40F35CB0E00175A4B /* Pods_Sample_Finance_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B34D42B6D7BCC45555995B0 /* Pods_Sample_Finance_Planner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C2E1222818195D00984D1F /* Sample-Finance-Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-Finance-Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C2E1252818195D00984D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C2E1272818195D00984D1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18C2E1292818195D00984D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C2E12C2818195D00984D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C2E12E2818196200984D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C2E1312818196200984D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C2E1332818196200984D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C2E13928187A3400984D1F /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		18C2E13F28194EF100984D1F /* DashbordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordViewController.swift; sourceTree = "<group>"; };
+		18C2E14128194F1A00984D1F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18C2E14328195F0C00984D1F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		1B34D42B6D7BCC45555995B0 /* Pods_Sample_Finance_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_Finance_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		275BC4A03A99C8868A2E7952 /* Pods-Sample-Finance-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-Finance-Planner.release.xcconfig"; path = "Target Support Files/Pods-Sample-Finance-Planner/Pods-Sample-Finance-Planner.release.xcconfig"; sourceTree = "<group>"; };
+		E4275E27A8F55C0C4AE6B46B /* Pods-Sample-Finance-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-Finance-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Sample-Finance-Planner/Pods-Sample-Finance-Planner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C2E11F2818195D00984D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500CABB40F35CB0E00175A4B /* Pods_Sample_Finance_Planner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C2E1192818195C00984D1F = {
+			isa = PBXGroup;
+			children = (
+				18C2E1242818195D00984D1F /* Sample-Finance-Planner */,
+				18C2E1232818195D00984D1F /* Products */,
+				BE9BCCE8726364EE95C0BCB6 /* Pods */,
+				EFFBC587B522A1E070F277C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C2E1232818195D00984D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C2E1222818195D00984D1F /* Sample-Finance-Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C2E1242818195D00984D1F /* Sample-Finance-Planner */ = {
+			isa = PBXGroup;
+			children = (
+				18C2E1452819604900984D1F /* ViewControllers */,
+				18C2E1252818195D00984D1F /* AppDelegate.swift */,
+				18C2E1272818195D00984D1F /* SceneDelegate.swift */,
+				18C2E12B2818195D00984D1F /* Main.storyboard */,
+				18C2E12E2818196200984D1F /* Assets.xcassets */,
+				18C2E1302818196200984D1F /* LaunchScreen.storyboard */,
+				18C2E1332818196200984D1F /* Info.plist */,
+			);
+			path = "Sample-Finance-Planner";
+			sourceTree = "<group>";
+		};
+		18C2E1452819604900984D1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18C2E14128194F1A00984D1F /* ProfileViewController.swift */,
+				18C2E14328195F0C00984D1F /* ListViewController.swift */,
+				18C2E13F28194EF100984D1F /* DashbordViewController.swift */,
+				18C2E13928187A3400984D1F /* chatViewController.swift */,
+				18C2E1292818195D00984D1F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BE9BCCE8726364EE95C0BCB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4275E27A8F55C0C4AE6B46B /* Pods-Sample-Finance-Planner.debug.xcconfig */,
+				275BC4A03A99C8868A2E7952 /* Pods-Sample-Finance-Planner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFFBC587B522A1E070F277C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B34D42B6D7BCC45555995B0 /* Pods_Sample_Finance_Planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C2E1212818195D00984D1F /* Sample-Finance-Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C2E1362818196200984D1F /* Build configuration list for PBXNativeTarget "Sample-Finance-Planner" */;
+			buildPhases = (
+				109097C04F619415EEF68806 /* [CP] Check Pods Manifest.lock */,
+				18C2E11E2818195D00984D1F /* Sources */,
+				18C2E11F2818195D00984D1F /* Frameworks */,
+				18C2E1202818195D00984D1F /* Resources */,
+				778029334D240CB81C5B1B0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample-Finance-Planner";
+			productName = "Sample-Finance-Planner";
+			productReference = 18C2E1222818195D00984D1F /* Sample-Finance-Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C2E11A2818195C00984D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					18C2E1212818195D00984D1F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18C2E11D2818195C00984D1F /* Build configuration list for PBXProject "Sample-Finance-Planner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C2E1192818195C00984D1F;
+			productRefGroup = 18C2E1232818195D00984D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C2E1212818195D00984D1F /* Sample-Finance-Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C2E1202818195D00984D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2E1322818196200984D1F /* LaunchScreen.storyboard in Resources */,
+				18C2E12F2818196200984D1F /* Assets.xcassets in Resources */,
+				18C2E12D2818195D00984D1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109097C04F619415EEF68806 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample-Finance-Planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778029334D240CB81C5B1B0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample-Finance-Planner/Pods-Sample-Finance-Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample-Finance-Planner/Pods-Sample-Finance-Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample-Finance-Planner/Pods-Sample-Finance-Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C2E11E2818195D00984D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C2E14028194EF100984D1F /* DashbordViewController.swift in Sources */,
+				18C2E12A2818195D00984D1F /* ViewController.swift in Sources */,
+				18C2E1262818195D00984D1F /* AppDelegate.swift in Sources */,
+				18C2E14228194F1A00984D1F /* ProfileViewController.swift in Sources */,
+				18C2E13A28187A3400984D1F /* chatViewController.swift in Sources */,
+				18C2E14428195F0C00984D1F /* ListViewController.swift in Sources */,
+				18C2E1282818195D00984D1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C2E12B2818195D00984D1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C2E12C2818195D00984D1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C2E1302818196200984D1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C2E1312818196200984D1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C2E1342818196200984D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C2E1352818196200984D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C2E1372818196200984D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4275E27A8F55C0C4AE6B46B /* Pods-Sample-Finance-Planner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3327J23B29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sample-Finance-Planner/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrishti.Sample-Finance-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C2E1382818196200984D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275BC4A03A99C8868A2E7952 /* Pods-Sample-Finance-Planner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3327J23B29;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sample-Finance-Planner/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shrishti.Sample-Finance-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C2E11D2818195C00984D1F /* Build configuration list for PBXProject "Sample-Finance-Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C2E1342818196200984D1F /* Debug */,
+				18C2E1352818196200984D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C2E1362818196200984D1F /* Build configuration list for PBXNativeTarget "Sample-Finance-Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C2E1372818196200984D1F /* Debug */,
+				18C2E1382818196200984D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C2E11A2818195C00984D1F /* Project object */;
+}
